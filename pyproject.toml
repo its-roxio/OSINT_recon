@@ -1,1 +1,17 @@
+[project]
+name = "osint-checker"
+version = "0.1.0"
+description = "OSINT website and domain reconnaissance tool"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "requests",
+  "beautifulsoup4",
+  "dnspython",
+  "python-whois",
+  "tldextract",
+  "lxml",
+]
 
+[project.scripts]
+osint-checker = "osint_recon.__main__:main"
