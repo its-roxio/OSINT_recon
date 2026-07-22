@@ -1,1 +1,6 @@
-
+requests
+beautifulsoup4
+dnspython
+python-whois
+tldextract
+lxml
