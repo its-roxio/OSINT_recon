@@ -21,6 +21,7 @@ OSINT Checker is a modular Python tool for website and domain reconnaissance.
 Windows
 
 git clone https://github.com/its-roxio/OSINT_recon.git
+cd OSINT_recon
 py -m pip install -r requirements.txt
 py -m pip install dnspython
 
